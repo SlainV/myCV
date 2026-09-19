@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Louw Venter | CV</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            background: #f4f6f8;
+            color: #333;
+            line-height: 1.7;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 2rem;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: white;
+            text-align: center;
+            padding: 3rem 2rem;
+            border-radius: 15px;
+            margin-bottom: 2rem;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .hero img {
+            width: 220px;
+            height: 220px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 5px solid white;
+            margin-bottom: 1rem;
+        }
+
+        .hero h1 {
+            margin-bottom: 0.5rem;
+            font-size: 2.5rem;
+        }
+
+        .hero p {
+            color: rgba(255, 255, 255, 0.9);
+        }
+
+        .card {
+            background: white;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+        }
+
+        h2 {
+            color: #1e3c72;
+            margin-bottom: 1rem;
+            border-bottom: 3px solid #2a5298;
+            display: inline-block;
+            padding-bottom: .25rem;
+        }
+
+        p {
+            margin-bottom: 1rem;
+        }
+
+        ul {
+            margin-left: 1.5rem;
+            margin-top: .75rem;
+        }
+
+        li {
+            margin-bottom: .5rem;
+        }
+
+        a {
+            color: #2a5298;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .grid {
+            display: grid;
+            gap: 1.5rem;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        }
+
+        .item-card {
+            background: #f8fafc;
+            padding: 1rem;
+            border-radius: 10px;
+            border-left: 4px solid #2a5298;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #666;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .hero img {
+                width: 180px;
+                height: 180px;
+            }
+
+            .container {
+                padding: 1rem;
+            }
+        }
+
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 1rem;
+        }
+
+        .skill-badge {
+            background: linear-gradient(135deg, #2a5298, #1e3c72);
+            color: white;
+            padding: 8px 14px;
+            border-radius: 30px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+            transition: all 0.2s ease;
+        }
+
+        .skill-badge:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <section class="hero">
+            <img src="cover_image.jpg">
+
+            <h1>Louw Venter</h1>
+
+            <p>
+                Senior Business Analyst | IT Professional |
+                Lifelong Learner | Problem Solver
+            </p>
+        </section>
+
+        <section class="card">
+            <h2>About Me</h2>
+
+            <p>
+                I'm a middle-aged (40+ years old) kid still trying to figure things out
+                that other people seemingly have under control.
+            </p>
+
+            <p>
+                I've been in IT for 14 years, having started in the Library at the
+                Checkouts desk and allowing my career to follow my interests.
+            </p>
+
+            <p>
+                Most recently I've worked extensively with Desktop Virtualization and
+                am now moving into the Teaching and Learning support space, with
+                involvement in the student Learning Management System.
+            </p>
+
+            <p>
+                For the most part I'm just trying to be better. Better at my work,
+                better for my family, and lately better for myself.
+            </p>
+        </section>
+
+        <section class="card">
+            <h2>Contact</h2>
+
+            <p>
+                Feel free to connect with me on
+                <a href="https://www.linkedin.com/in/louwventer/" target="_blank" rel="noopener noreferrer">
+                    LinkedIn
+                </a>.
+            </p>
+        </section>
+
+        <section class="card">
+            <h2>Education</h2>
+
+            <div class="grid">
+
+                <div class="item-card">
+                    <strong>Bachelor's Degree in Psychology</strong><br>
+                    UNISA (2008)
+                </div>
+
+                <div class="item-card">
+                    <strong>Master's Degree in Information Technology</strong><br>
+                    University of Pretoria (2014)
+                </div>
+
+                <div class="item-card">
+                    <strong>BSc Honours in Computer Science</strong><br>
+                    North-West University (2017)
+                </div>
+
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>Skills & Competencies</h2>
+
+            <div class="skills-container">
+                <span class="skill-badge">Business Analysis</span>
+                <span class="skill-badge">Microsoft 365</span>
+                <span class="skill-badge">Power Platform</span>
+                <span class="skill-badge">Python</span>
+                <span class="skill-badge">Django</span>
+                <span class="skill-badge">REST APIs</span>
+                <span class="skill-badge">SQL</span>
+                <span class="skill-badge">MariaDB</span>
+                <span class="skill-badge">Linux</span>
+                <span class="skill-badge">Citrix</span>
+                <span class="skill-badge">Desktop Virtualization</span>
+                <span class="skill-badge">Teaching & Learning Systems</span>
+                <span class="skill-badge">Project Management</span>
+                <span class="skill-badge">Requirements Gathering</span>
+                <span class="skill-badge">Process Improvement</span>
+                <span class="skill-badge">Systems Integration</span>
+                <span class="skill-badge">Workflow Automation</span>
+                <span class="skill-badge">Git</span>
+                <span class="skill-badge">Technical Documentation</span>
+                <span class="skill-badge">Problem Solving</span>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>Key Systems & Technologies</h2>
+
+            <ul>
+                <li>
+                    <a href="https://iii.com/products/sierra-ils/" target="_blank">
+                        Innovative Interfaces Millennium / Sierra
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://lucidea.com/inmagic-dbtextworks/" target="_blank">
+                        InMagic DBTextWorks & Web Publisher PRO
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://dspace.org/" target="_blank">
+                        DSpace Institutional Repository
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://docs.citrix.com/en-us/citrix-virtual-apps-desktops.html" target="_blank">
+                        Citrix Virtual Apps & Desktops
+                    </a>
+                </li>
+            </ul>
+        </section>
+
+        <footer>
+            © 2026 Louw Venter
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
